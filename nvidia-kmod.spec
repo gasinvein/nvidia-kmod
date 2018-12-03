@@ -8,7 +8,7 @@
 
 Name:          nvidia-kmod
 Epoch:         3
-Version:       415.18
+Version:       415.18.04
 # Taken over by kmodtool
 Release:       1%{?dist}
 Summary:       NVIDIA display driver kernel module
@@ -686,7 +686,7 @@ done
 * Thu Jun 17 2010 Nicolas Chaubvet <kwizart@gmail.com> - 1:195.36.31-1
 - Update to 195.36.31
 - Fix acpi_walk_namespace call with kernel 2.6.33 and later.
-  http://bugs.gentoo.org/show_bug.cgi?id=301318 
+  http://bugs.gentoo.org/show_bug.cgi?id=301318
 
 * Sun Jun 13 2010 Nicolas Chauvet <kwizart@gmail.com> - 1:195.36.24-2
 - Backport IOMMU - http://www.nvnews.net/vbulletin/showthread.php?t=151791
@@ -701,7 +701,7 @@ done
 - Bump Epoch - Fan problem in recent release
 
 * Mon Mar 08 2010 Nicolas Chauvet <kwizart@fedoraproject.org> - 1:190.53-2
-- Revert to 190.53 version 
+- Revert to 190.53 version
   http://www.nvnews.net/vbulletin/announcement.php?f=14
 
 * Sat Feb 27 2010 Nicolas Chauvet <kwizart@fedoraproject.org> - 195.36.08-1
@@ -1021,7 +1021,7 @@ done
 * Tue Oct 09 2007 Thorsten Leemhuis <fedora[AT]leemhuis[DOT]info> 100.14.19-5
 - rebuilt for latest kernels
 
-* Sun Oct 07 2007 Thorsten Leemhuis <fedora AT leemhuis DOT info> 
+* Sun Oct 07 2007 Thorsten Leemhuis <fedora AT leemhuis DOT info>
 - build for rawhide kernels as of today
 
 * Thu Oct 04 2007 Thorsten Leemhuis <fedora AT leemhuis DOT info> - 100.14.19-3
@@ -1106,7 +1106,7 @@ done
 - include xen patch (thx to Bob Richmond)
 
 * Wed Nov 01 2006 Thorsten Leemhuis <fedora AT leemhuis DOT info> - 1.0.9626-2
-- include patch from 
+- include patch from
   http://www.nvnews.net/vbulletin/showpost.php?p=996233&postcount=20
 
 * Sun Oct 22 2006 Stewart Adam <s.adam AT diffingo DOT com> - 1.0.9626-1
